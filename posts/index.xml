@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on ILvoidia.sh</title>
+    <link>https://sty-ilman.github.io/ILvoidia/posts/</link>
+    <description>Recent content in Posts on ILvoidia.sh</description>
+    <image>
+      <title>ILvoidia.sh</title>
+      <url>https://sty-ilman.github.io/ILvoidia/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sty-ilman.github.io/ILvoidia/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sty-ilman.github.io/ILvoidia/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bandit 0 -&gt; 1</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit0/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit0/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;login-&#34;&gt;Login :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit0@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;bandit0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;in this level the goal is to try to log in using SSH with the provided credentials&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory-&#34;&gt;Theory :&lt;/h2&gt;
+&lt;p&gt;SSH (secure shell protocol) , is a network protocol used to remotely connect to another machine .&lt;/p&gt;
+&lt;p&gt;In Linux, you can ssh to a machine using the command &lt;code&gt;ssh&lt;/code&gt;
+you can find a lot more infos about this command using &lt;code&gt;man&lt;/code&gt; command&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 1 -&gt; 2</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit1/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit1/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit1@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task&#34;&gt;Task&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the goal of this games is to read the password from a particular file &lt;code&gt;-&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;code&gt;-&lt;/code&gt; is a special shortcut that means : treat the terminal content as the file for example:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat -
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;after this command you&amp;rsquo;d have to type something into the screen , when you type &lt;em&gt;enter&lt;/em&gt; it will print what you&amp;rsquo;ve printed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;so if you find it as a file name it can confuse the programs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;to read a file that was named &lt;code&gt;-&lt;/code&gt; you have to pass it as a path not just the name , so the answer will be :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat ./-
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

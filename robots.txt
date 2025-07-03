@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://sty-ilman.github.io/ILvoidia/sitemap.xml
