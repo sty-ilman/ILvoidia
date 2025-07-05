@@ -4,13 +4,49 @@
     <title>Ssh on ILvoidia.sh</title>
     <link>http://localhost:1313/ILvoidia/tags/ssh/</link>
     <description>Recent content in Ssh on ILvoidia.sh</description>
-    <image>
-      <title>ILvoidia.sh</title>
-      <url>http://localhost:1313/ILvoidia/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/ILvoidia/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ILvoidia/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bandit 0 -&gt; 1</title>
+      <link>http://localhost:1313/ILvoidia/posts/bandit0/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ILvoidia/posts/bandit0/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;login-&#34;&gt;Login :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit0@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;bandit0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;in this level the goal is to try to log in using SSH with the provided credentials&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory-&#34;&gt;Theory :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;SSH (secure shell protocol) , is a network protocol used to remotely connect to another machine .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In Linux, you can remotly connect to another machine using the command &lt;code&gt;ssh&lt;/code&gt; with :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ssh &amp;lt;username&amp;gt;@&amp;lt;server&amp;gt; -p &amp;lt;port&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;the parts with &lt;code&gt;&amp;lt;..&amp;gt;&lt;/code&gt; needs to be replaced with the correct informations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;the &lt;code&gt;&amp;lt;server&amp;gt;&lt;/code&gt; needs to be replaced with the valid URL or the IP address&lt;/li&gt;
+&lt;li&gt;the &lt;code&gt;-p&lt;/code&gt; is used to be able to set the correct port&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution-&#34;&gt;Solution :&lt;/h2&gt;
+&lt;p&gt;the informations provided will lead you to the following command :&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

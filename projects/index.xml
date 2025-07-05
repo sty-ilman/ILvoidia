@@ -4,19 +4,14 @@
     <title>Projects on ILvoidia.sh</title>
     <link>https://sty-ilman.github.io/ILvoidia/projects/</link>
     <description>Recent content in Projects on ILvoidia.sh</description>
-    <image>
-      <title>ILvoidia.sh</title>
-      <url>https://sty-ilman.github.io/ILvoidia/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://sty-ilman.github.io/ILvoidia/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jul 2025 23:34:16 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sty-ilman.github.io/ILvoidia/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Starting My OverTheWire Journey</title>
       <link>https://sty-ilman.github.io/ILvoidia/projects/overthewire/</link>
-      <pubDate>Fri, 04 Jul 2025 23:34:16 +0100</pubDate>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://sty-ilman.github.io/ILvoidia/projects/overthewire/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve started working through the &lt;a href=&#34;https://overthewire.org/wargames/&#34;&gt;OverTheWire&lt;/a&gt; wargames.&lt;/p&gt;
 &lt;p&gt;They&amp;rsquo;re a set of CTF-style challenges focused on Linux, networking, and basic hacking concepts. I&amp;rsquo;ll be going through them one by one and writing short notes as I go.&lt;/p&gt;

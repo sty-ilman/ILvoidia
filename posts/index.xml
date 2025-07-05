@@ -4,22 +4,488 @@
     <title>Posts on ILvoidia.sh</title>
     <link>https://sty-ilman.github.io/ILvoidia/posts/</link>
     <description>Recent content in Posts on ILvoidia.sh</description>
-    <image>
-      <title>ILvoidia.sh</title>
-      <url>https://sty-ilman.github.io/ILvoidia/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://sty-ilman.github.io/ILvoidia/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sty-ilman.github.io/ILvoidia/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bandit 0 -&gt; 1</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit0/</link>
+      <title>Bandit 10 -&gt; 11</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-10---11/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-10---11/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit10@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the password is inside a &lt;em&gt;data.txt&lt;/em&gt; which is a base64 encoded file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Base64&lt;/strong&gt; is a binary-to-text encoding scheme. It can often be recognized by equal signs at the end of the data. However, this is not always the case. Linux has a command called &lt;code&gt;base64&lt;/code&gt; that allows for encoding and decoding in Base64. For decoding, we need to use the flag &lt;code&gt;-d&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;i decoded the file with :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;base64 -d data.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-11---12&#34;&gt;bandit 11 -&amp;gt; 12&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 11 -&gt; 12</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-11---12/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-11---12/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit11@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;decode the text inside the file &lt;em&gt;data.txt&lt;/em&gt; which is encoded with rot13&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;rot13 is a simple old encoding algorithm where you just shit the letters by 13 positions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;i used the command &lt;code&gt;cat data.txt&lt;/code&gt; then used website called &lt;a href=&#34;https://gchq.github.io/CyberChef/&#34;&gt;cyberChef&lt;/a&gt; and decode the content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;next level : &lt;a href=&#34;../bandit-12---13&#34;&gt;bandit 12 -&amp;gt; 13&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 12 -&gt; 13</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-12---13/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-12---13/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit12@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the decompress a heavy compressed file to reach the password&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Hexdumps&lt;/strong&gt; are often used when we want to look at data that cannot be represented in strings and therefore is not readable, so it is easier to look at the hex values. A hexdump has three main columns. The first shows the address, the second the hex representation of the data on that address and the last shows the actual data as strings (with ‘.’ being hex values that cannot be represented as a string). Many hex editors exist just pick the one you like most.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 13 -&gt; 14</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-13---14/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-13---14/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit13@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;use a provided private key to connect to the next level, then find the password in the provided path &lt;code&gt;/etc/bandit_pass/bandit14&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Until now, we have only logged into the remote machine using &lt;code&gt;ssh&lt;/code&gt; with a password. An alternative to a password is using public-key cryptography. The public key is placed on the computers that should allow access (the remote host) to the user that owns the private key. Like with the password, it is important that only the user knows/owns the private key. The &lt;code&gt;-i&lt;/code&gt; flag allows login with the private key.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;connecting with the provided private key :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh -i sshkey.private bandit14@localhost -p 2220
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;then use the &lt;code&gt;cat&lt;/code&gt; command  on the provided path to get the password&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;next level : &lt;a href=&#34;../bandit-14---15&#34;&gt;bandit 14 -&amp;gt; 15&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 14 -&gt; 15</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-14---15/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-14---15/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit14@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;submit the current level password to localhost on port 30000 to get the wanted password&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;it this level we gonna use the &lt;code&gt;nc&lt;/code&gt; or &lt;code&gt;netcat&lt;/code&gt; command which allows us to write and read data over a network connection&lt;/li&gt;
+&lt;li&gt;it can be used for &lt;code&gt;TCP&lt;/code&gt; and &lt;code&gt;UDP&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;the command is &lt;code&gt;nc &amp;lt;server&amp;gt; &amp;lt;port&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;we just need to do the following :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nc loalhost 30000
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;then we will have the option to submit the current level password.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;next level : &lt;a href=&#34;../bandit-15---16&#34;&gt;bandit 15 -&amp;gt; 16&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 15 -&gt; 16</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-15---16/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-15---16/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit15@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the password of the next level can be retrieved by submitting the current level password to localhost on port 30001 using the &lt;code&gt;SSL&lt;/code&gt; encryption&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SSL&lt;/code&gt;, or Secure Sockets Layer, is a security protocol that establishes an encrypted link between a web server and a browser, ensuring that all data passed between them remains private&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;OpenSSL&lt;/code&gt; The command-line tool for using the &lt;strong&gt;OpenSSL&lt;/strong&gt; cryptography library. It supports many sub-commands for encryption, certificates, SSL/TLS, etc.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;s_client&lt;/code&gt; A subcommand of &lt;code&gt;openssl&lt;/code&gt; that acts as a &lt;strong&gt;generic SSL/TLS client&lt;/strong&gt;. It allows you to connect to a server to test and inspect its SSL/TLS configuration.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-connect &amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;&lt;/code&gt; Specifies the &lt;strong&gt;host-name (or IP)&lt;/strong&gt; and &lt;strong&gt;port&lt;/strong&gt; of the server to connect to. The format is &lt;code&gt;host:port&lt;/code&gt;. For example:  &lt;code&gt;-connect google.com:443&lt;/code&gt; will attempt to initiate an SSL/TLS handshake with Google&amp;rsquo;s HTTPS server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;first i got the current level password , if you did not save it somewhere you can always find it in &lt;code&gt;/etc/bandit_pass/bandit15&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;then i used the following command :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;openssl s_client -connect localhost:30001
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;after getting a response you&amp;rsquo;d submit the password to solve the level.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;next level : &lt;a href=&#34;../bandit-16---17&#34;&gt;bandit 16 -&amp;gt; 17&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 16 -&gt; 17</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-16---17/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-16---17/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit16@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;you can connect to the next level by submitting the current level password on localhost on a random port between 31000 and 32000 that uses &lt;code&gt;ssl&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;nmap&lt;/code&gt; is a network scanner. It can do Host Discovery, Port Scanning, Version Detection (Service Detection) and a lot more. For this task, we use the flag &lt;code&gt;-p&lt;/code&gt; to lets us choose which ports to scan.&lt;/li&gt;
+&lt;li&gt;By default, nmap scans the top 1000 ports (not the first 1000 ports). Use &lt;code&gt;-p-&lt;/code&gt; to scan all 65535 ports. The &lt;code&gt;-sV&lt;/code&gt; flag lets us do a service/version detection scan. It is possible to make Nmap perform all possible scans with the &lt;code&gt;-A&lt;/code&gt; flag this will take a while though. A full scan would have the following command: &lt;code&gt;nmap -p- -A &amp;lt;host&amp;gt;&lt;/code&gt;, where &lt;code&gt;&amp;lt;host&amp;gt;&lt;/code&gt; could be either an IP address or the name.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I used nmap to search for the right port :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nmap -sV localhost -p 31000-32000
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and this will be displayed :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 17 -&gt; 18</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-17---18/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-17---18/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit17@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;EReVavePLFHtFlFsjn3hyzMlvSuSAcRD&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;to get the next level password we have to find the updated line between the 2 provided files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the command &lt;code&gt;diff&lt;/code&gt; is used to get any differences between 2 files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;diff password.old password.new
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;this command will give us the difference it finds where it will display the different lines in the order of the given files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;next level : &lt;a href=&#34;../bandit-18---19&#34;&gt;bandit 18 -&amp;gt; 19&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 18 -&gt; 19</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-18---19/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-18---19/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit18@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;to get the next level password you have to read the &lt;em&gt;readme&lt;/em&gt; file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;.bashrc&lt;/em&gt; is a file that runs every time a terminal is loaded. This means it is also run when logging in through SSH because this also loads a terminal.&lt;/li&gt;
+&lt;li&gt;a new thing about &lt;code&gt;ssh&lt;/code&gt; is that it does not just allows us to remotely connect to another machine but it lets us to run a command just after the common &lt;code&gt;shh&lt;/code&gt; expression.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;as mentioned in the level that thhappenese &lt;em&gt;.bashrc&lt;/em&gt; file is modified to log us out just after we connect with &lt;code&gt;ssh&lt;/code&gt; , so what I&amp;rsquo;ve done is i included the command &lt;code&gt;cat&lt;/code&gt; with the &lt;code&gt;ssh&lt;/code&gt; expression to read the file before the logout happens&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh bandit18@bandit.labs.overthewire.org -p 2220 &amp;#39;cat readme&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;i found and another alternative is to run  or &lt;code&gt;-t /bin/sh&lt;/code&gt; to open a &lt;em&gt;pseudo-terminal&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;next level : &lt;a href=&#34;../bandit-19---20&#34;&gt;bandit 19 -&amp;gt; 20&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 9 -&gt; 10</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-9---10/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-9---10/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit9@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;4CKMh1JI91bUIZZPXDqGanal4xvAg0JM&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fine a the password inside a file &lt;code&gt;data.txt&lt;/code&gt; , that is located next to some equal signs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;after running the command &lt;code&gt;file data.txt&lt;/code&gt; we notice that file &lt;code&gt;data.txt&lt;/code&gt; is not a text file it is a binary file,&lt;/li&gt;
+&lt;li&gt;to fix that we gonna use the command &lt;code&gt;strings&lt;/code&gt; which can turn data into  readable characters&lt;/li&gt;
+&lt;li&gt;then with the pipe command &lt;code&gt;|&lt;/code&gt; we find the password with &lt;code&gt;grep&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;strings data.txt | grep =
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-10---11&#34;&gt;bandit 10 -&amp;gt; 11&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 2 -&gt; 3</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-2---3/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit0/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;login-&#34;&gt;Login :&lt;/h2&gt;
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-2---3/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit2@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;263JGJPfgU6LtdEvgfWU1XP5yac29mFx&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task&#34;&gt;Task&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;read form a file that contains spaces in its name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the answer is you either skip the spaces using a &lt;code&gt;\&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat ./space\ in\ this\ filename
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;or you may also open it like this :&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat &amp;#34;space in this filename&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-3---4&#34;&gt;bandit 3 -&amp;gt; 4&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 3 -&gt; 4</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-3---4/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-3---4/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit3@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task&#34;&gt;Task&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;find  the hidden file to get the  next level password&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd inhere
+ls -la
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-4---5&#34;&gt;bandit 4 -&amp;gt; 5&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 4 -&gt; 5</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-4---5/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-4---5/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit4@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task&#34;&gt;Task&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;find the human readable file in the &lt;em&gt;inhere&lt;/em&gt; directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;as the in the bandit2 level all the files starts with &lt;code&gt;-&lt;/code&gt; which means if we gonna use them I have to start each one with &lt;code&gt;./&lt;/code&gt; .&lt;/li&gt;
+&lt;li&gt;in this level I used the command &lt;code&gt;file&lt;/code&gt; the check which file is human readable which means it should contain text&lt;/li&gt;
+&lt;li&gt;to select all files all at once we gonna use the &lt;code&gt;*&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd inhere
+file ./*
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;this should display all the files with their type&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;next level : &lt;a href=&#34;../bandit-5---6&#34;&gt;bandit 5 -&amp;gt; 6&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 5 -&gt; 6</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-5---6/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-5---6/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit5@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task&#34;&gt;Task&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the goal is to find a file that is human readable and has a size of 1033 bytes among a lof of files and directories&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;in this solution I used the command &lt;code&gt;find&lt;/code&gt; with 2 parameters which are :
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-readable&lt;/code&gt; to find any file that is readable for humans (which means a text file)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-size &amp;lt;size&amp;gt;&amp;lt;unit&amp;gt;&lt;/code&gt; , to specify the file size, we have to replace the &lt;code&gt;&amp;lt;...&amp;gt;&lt;/code&gt; with the correct values , the &lt;code&gt;&amp;lt;unit&amp;gt;&lt;/code&gt; part is gonna be replaced with &lt;code&gt;c&lt;/code&gt; (check the &lt;code&gt;man&lt;/code&gt; for more details)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd inhere
+find -readable -size 1033c
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-6---7&#34;&gt;bandit 6 -&amp;gt; 7&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 6 -&gt; 7</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-6---7/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-6---7/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit6@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;HWasnPhtq9AVKe0dmk45nxy20cvUa6EG&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the goal is to find a file locate somewhere on the server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;as the previous level I used the command &lt;code&gt;find&lt;/code&gt; but first we need to go to the root directory , cus there is no hints about the file&amp;rsquo;s location&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd /
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;after that I used the &lt;code&gt;find&lt;/code&gt; command with the following parameters :
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-user &amp;lt;user&amp;gt;&lt;/code&gt; : to specify the owner of the file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-group &amp;lt;group&amp;gt;&lt;/code&gt; to specify the group that the files belongs to&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-size &amp;lt;size&amp;gt;&amp;lt;unit&amp;gt;&lt;/code&gt; : to specify the file size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I run this command from the root directory and since there is a lot of files that we can&amp;rsquo;t access the screen will be full of &lt;em&gt;permission denied&lt;/em&gt; messages,
+to get rid of them we gonna use the [[Linux Commands#the errors stream (&lt;code&gt;stderr&lt;/code&gt;)|stderr]] to redirect them to /dev/null file to clean the screen and catch the wanted file&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 7 -&gt; 8</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-7---8/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-7---8/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit7@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;find the password inside a big file, which is next to the word &lt;em&gt;millionth&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I used the command &lt;code&gt;grep&lt;/code&gt; to catch the wanted line&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;grep millionth
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-8---9&#34;&gt;bandit 8 -&amp;gt; 9&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 8 -&gt; 9</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-8---9/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-8---9/</guid>
+      <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh : &lt;code&gt;ssh bandit8@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password : &lt;code&gt;dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-&#34;&gt;Task :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;find the password in a file , the hint is the password is the only one that occurs once&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I used the &lt;code&gt;sort&lt;/code&gt; command to sort the list of line the&lt;/li&gt;
+&lt;li&gt;using the &lt;code&gt;|&lt;/code&gt; combining it to the &lt;code&gt;uniq -c&lt;/code&gt; command which removes all the duplicates and with the parameter &lt;code&gt;-c&lt;/code&gt; it will display the numbers of occurrences of each line,&lt;/li&gt;
+&lt;li&gt;following with &lt;code&gt;|&lt;/code&gt;  to the &lt;code&gt;grep&lt;/code&gt; command where we gonna look for &lt;em&gt;1&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sort data.txt | uniq -c | grep 1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-9---10&#34;&gt;bandit 9 -&amp;gt; 10&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bandit 0 -&gt; 1</title>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-0---1/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-0---1/</guid>
+      <description>&lt;h2 id=&#34;login-&#34;&gt;Login :&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit0@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;password : &lt;code&gt;bandit0&lt;/code&gt;&lt;/li&gt;
@@ -31,15 +497,33 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;theory-&#34;&gt;Theory :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;SSH (secure shell protocol) , is a network protocol used to remotely connect to another machine .&lt;/p&gt;
-&lt;p&gt;In Linux, you can ssh to a machine using the command &lt;code&gt;ssh&lt;/code&gt;
-you can find a lot more infos about this command using &lt;code&gt;man&lt;/code&gt; command&lt;/p&gt;</description>
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In Linux, you can remotly connect to another machine using the command &lt;code&gt;ssh&lt;/code&gt; with :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ssh &amp;lt;username&amp;gt;@&amp;lt;server&amp;gt; -p &amp;lt;port&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;the parts with &lt;code&gt;&amp;lt;..&amp;gt;&lt;/code&gt; needs to be replaced with the correct informations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;the &lt;code&gt;&amp;lt;server&amp;gt;&lt;/code&gt; needs to be replaced with the valid URL or the IP address&lt;/li&gt;
+&lt;li&gt;the &lt;code&gt;-p&lt;/code&gt; is used to be able to set the correct port&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;solution-&#34;&gt;Solution :&lt;/h2&gt;
+&lt;p&gt;the informations provided will lead you to the following command :&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bandit 1 -&gt; 2</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit1/</link>
-      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit1/</guid>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-1---2/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-1---2/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit1@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -66,7 +550,7 @@ you can find a lot more infos about this command using &lt;code&gt;man&lt;/code&
 &lt;li&gt;to read a file that was named &lt;code&gt;-&lt;/code&gt; you have to pass it as a path not just the name , so the answer will be :&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat ./-
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-2---3&#34;&gt;bandit 2 -&amp;gt; 3&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
