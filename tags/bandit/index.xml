@@ -10,9 +10,9 @@
     <atom:link href="https://sty-ilman.github.io/ILvoidia/tags/bandit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bandit 10 -&gt; 11</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-10---11/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit10/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-10---11/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit10/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit10@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -34,13 +34,13 @@
 &lt;li&gt;i decoded the file with :&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;base64 -d data.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-11---12&#34;&gt;bandit 11 -&amp;gt; 12&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Bandit 11 -&gt; 12</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-11---12/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit11/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-11---12/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit11/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit11@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -60,14 +60,13 @@
 &lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;i used the command &lt;code&gt;cat data.txt&lt;/code&gt; then used website called &lt;a href=&#34;https://gchq.github.io/CyberChef/&#34;&gt;cyberChef&lt;/a&gt; and decode the content&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;next level : &lt;a href=&#34;../bandit-12---13&#34;&gt;bandit 12 -&amp;gt; 13&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Bandit 12 -&gt; 13</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-12---13/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit12/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-12---13/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit12/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit12@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -84,9 +83,9 @@
     </item>
     <item>
       <title>Bandit 13 -&gt; 14</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-13---14/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit13/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-13---14/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit13/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit13@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -110,14 +109,13 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh -i sshkey.private bandit14@localhost -p 2220
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;then use the &lt;code&gt;cat&lt;/code&gt; command  on the provided path to get the password&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;next level : &lt;a href=&#34;../bandit-14---15&#34;&gt;bandit 14 -&amp;gt; 15&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Bandit 14 -&gt; 15</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-14---15/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit14/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-14---15/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit14/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit14@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -143,14 +141,13 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nc loalhost 30000
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;then we will have the option to submit the current level password.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;next level : &lt;a href=&#34;../bandit-15---16&#34;&gt;bandit 15 -&amp;gt; 16&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Bandit 15 -&gt; 16</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-15---16/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit15/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-15---16/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit15/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit15@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -178,14 +175,13 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;openssl s_client -connect localhost:30001
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;after getting a response you&amp;rsquo;d submit the password to solve the level.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;next level : &lt;a href=&#34;../bandit-16---17&#34;&gt;bandit 16 -&amp;gt; 17&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Bandit 16 -&gt; 17</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-16---17/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit16/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-16---17/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit16/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit16@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -212,9 +208,9 @@
     </item>
     <item>
       <title>Bandit 17 -&gt; 18</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-17---18/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit17/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-17---18/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit17/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit17@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -235,14 +231,13 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;diff password.old password.new
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;this command will give us the difference it finds where it will display the different lines in the order of the given files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;next level : &lt;a href=&#34;../bandit-18---19&#34;&gt;bandit 18 -&amp;gt; 19&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Bandit 18 -&gt; 19</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-18---19/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit18/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-18---19/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit18/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit18@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -267,14 +262,13 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh bandit18@bandit.labs.overthewire.org -p 2220 &amp;#39;cat readme&amp;#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;i found and another alternative is to run  or &lt;code&gt;-t /bin/sh&lt;/code&gt; to open a &lt;em&gt;pseudo-terminal&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;next level : &lt;a href=&#34;../bandit-19---20&#34;&gt;bandit 19 -&amp;gt; 20&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Bandit 9 -&gt; 10</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-9---10/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit9/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-9---10/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit9/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit9@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -293,13 +287,13 @@
 &lt;li&gt;then with the pipe command &lt;code&gt;|&lt;/code&gt; we find the password with &lt;code&gt;grep&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;strings data.txt | grep =
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-10---11&#34;&gt;bandit 10 -&amp;gt; 11&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Bandit 2 -&gt; 3</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-2---3/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit2/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-2---3/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit2/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit2@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -318,13 +312,13 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat ./space\ in\ this\ filename
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;or you may also open it like this :&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat &amp;#34;space in this filename&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-3---4&#34;&gt;bandit 3 -&amp;gt; 4&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Bandit 3 -&gt; 4</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-3---4/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit3/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-3---4/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit3/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit3@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -339,13 +333,13 @@
 &lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd inhere
 ls -la
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-4---5&#34;&gt;bandit 4 -&amp;gt; 5&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Bandit 4 -&gt; 5</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-4---5/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit4/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-4---5/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit4/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit4@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -367,14 +361,13 @@ ls -la
 file ./*
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;this should display all the files with their type&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;next level : &lt;a href=&#34;../bandit-5---6&#34;&gt;bandit 5 -&amp;gt; 6&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Bandit 5 -&gt; 6</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-5---6/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit5/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-5---6/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit5/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit5@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -397,13 +390,13 @@ file ./*
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd inhere
 find -readable -size 1033c
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-6---7&#34;&gt;bandit 6 -&amp;gt; 7&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Bandit 6 -&gt; 7</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-6---7/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit6/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-6---7/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit6/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit6@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -434,9 +427,9 @@ to get rid of them we gonna use the [[Linux Commands#the errors stream (&lt;code
     </item>
     <item>
       <title>Bandit 7 -&gt; 8</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-7---8/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit7/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-7---8/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit7/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit7@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -453,13 +446,13 @@ to get rid of them we gonna use the [[Linux Commands#the errors stream (&lt;code
 &lt;li&gt;I used the command &lt;code&gt;grep&lt;/code&gt; to catch the wanted line&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;grep millionth
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-8---9&#34;&gt;bandit 8 -&amp;gt; 9&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Bandit 8 -&gt; 9</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-8---9/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit8/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-8---9/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit8/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit8@bandit.labs.overthewire -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -478,13 +471,13 @@ to get rid of them we gonna use the [[Linux Commands#the errors stream (&lt;code
 &lt;li&gt;following with &lt;code&gt;|&lt;/code&gt;  to the &lt;code&gt;grep&lt;/code&gt; command where we gonna look for &lt;em&gt;1&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sort data.txt | uniq -c | grep 1
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-9---10&#34;&gt;bandit 9 -&amp;gt; 10&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Bandit 0 -&gt; 1</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-0---1/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit0/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-0---1/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit0/</guid>
       <description>&lt;h2 id=&#34;login-&#34;&gt;Login :&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit0@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -521,9 +514,9 @@ to get rid of them we gonna use the [[Linux Commands#the errors stream (&lt;code
     </item>
     <item>
       <title>Bandit 1 -&gt; 2</title>
-      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit-1---2/</link>
+      <link>https://sty-ilman.github.io/ILvoidia/posts/bandit1/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit-1---2/</guid>
+      <guid>https://sty-ilman.github.io/ILvoidia/posts/bandit1/</guid>
       <description>&lt;h2 id=&#34;login&#34;&gt;Login&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ssh : &lt;code&gt;ssh bandit1@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/li&gt;
@@ -550,7 +543,7 @@ to get rid of them we gonna use the [[Linux Commands#the errors stream (&lt;code
 &lt;li&gt;to read a file that was named &lt;code&gt;-&lt;/code&gt; you have to pass it as a path not just the name , so the answer will be :&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat ./-
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;next level : &lt;a href=&#34;../bandit-2---3&#34;&gt;bandit 2 -&amp;gt; 3&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Starting My OverTheWire Journey</title>
